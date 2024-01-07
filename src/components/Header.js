@@ -55,12 +55,12 @@ const Header = () => {
     <nav className="navbar navbar-light" style={navbarStyles}>
       <div className="container" style={navbarContainerStyles}>
         <Link to="/" className="navbar-brand" style={brandStyles}>
-          <img src={process.env.PUBLIC_URL + '/logo.png'} alt="logo" style={imgStyles}/>
-          <div style={navTitleStyles}>{t('URL Album')}</div>
+          <img src={process.env.PUBLIC_URL + '/logo.png'} alt="logo" style={imgStyles} />
+          <div style={navTitleStyles}>{t('Muse')}</div>
         </Link>
         <div style={languageStyles}>
           <div><i class="fas fa-globe-asia"></i></div>
-          <div className="langChange" style={engStyles}onClick={() => handleClick('en')}>Eng</div>
+          <div className="langChange" style={engStyles} onClick={() => handleClick('en')}>Eng</div>
           <div className="langChange" onClick={() => handleClick('ko')}>한국어</div>
         </div>
       </div>
