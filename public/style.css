@@ -1,0 +1,32 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px !important;
+  }
+}
+
+h6 {
+  color: #b1b1b123;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h5 {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.langChange:hover {
+  cursor: pointer;
+  /* text-shadow: 0 0  20px blue; */
+  font-weight: bold;
+}
+
