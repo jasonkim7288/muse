@@ -19,7 +19,8 @@ const Privacy = () => {
       <Header />
       <div style={privacyStyles}>
         <h3>{t('Privacy Policy')}</h3>
-        <p>{t('Privacy Policy main description')}</p>
+        <p>{t('Privacy Policy main description 1')}</p>
+        <p>{t('Privacy Policy main description 2')}</p>
         <h5>{t('Changes to this policy')}</h5>
         <p>{t('Changes to this policy description')}</p>
         <p className="mt-5">{t('Last modified with the date')}</p>
