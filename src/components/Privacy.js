@@ -1,7 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Header from './Header';
-import Footer from './Footer';
 
 const privacyStyles = {
   maxWidth: '800px',
@@ -15,18 +13,19 @@ const privacyStyles = {
 const Privacy = () => {
   const { t } = useTranslation();
   return (
-    <>
-      <Header />
-      <div style={privacyStyles}>
-        <h3>{t('Privacy Policy')}</h3>
-        <p>{t('Privacy Policy main description 1')}</p>
-        <p>{t('Privacy Policy main description 2')}</p>
-        <h5>{t('Changes to this policy')}</h5>
-        <p>{t('Changes to this policy description')}</p>
-        <p className="mt-5">{t('Last modified with the date')}</p>
-      </div>
-      <Footer />
-    </>
+    <div style={privacyStyles}>
+      <h3>{t('Privacy Policy')}</h3>
+      <p>{t('Privacy Policy main description')}</p>
+      <h5>{t('Analytics')}</h5>
+      <p>{t('Analytics description')}</p>
+      <h5>{t('Crash reports')}</h5>
+      <p>{t('Crash reports description')}</p>
+      {/* <h5>{t('Advertising')}</h5>
+      <p>{t('Advertising description')}</p> */}
+      <h5>{t('Changes to this policy')}</h5>
+      <p>{t('Changes to this policy description')}</p>
+      <p className="mt-5">{t('Last modified with the date')}</p>
+    </div>
   );
 };
 
