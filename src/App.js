@@ -11,7 +11,6 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Main} />
           <Route path="/privacy" component={Privacy} />
-          {/* <Route path="/app-ads.txt" component={AppAds} /> */}
         </Switch>
       </BrowserRouter>
     </>
